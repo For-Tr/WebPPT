@@ -1,0 +1,773 @@
+{
+  "admins": {
+    "1@a.com": {
+      "name": "test test",
+      "password": "123",
+      "store": {
+        "presentations": [
+          {
+            "id": "1731426180015",
+            "title": "123123",
+            "slides": [
+              {
+                "id": "1",
+                "elements": [
+                  {
+                    "id": "1731426446449",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "width": 50,
+                    "height": 50,
+                    "text": "qweqew",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731426609333",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "width": 50,
+                    "height": 50,
+                    "text": "二七阿",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731426625092",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 5,
+                      "height": 100
+                    },
+                    "width": "5",
+                    "height": "100",
+                    "text": "二七阿",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731426648200",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 100,
+                      "height": 100
+                    },
+                    "width": "100",
+                    "height": "100",
+                    "text": "二七阿24124",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731427156814",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "width": 50,
+                    "height": 50,
+                    "x": "100",
+                    "y": "80",
+                    "text": "qwe",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  }
+                ],
+                "background": {
+                  "type": "solid",
+                  "color": "#ffffff"
+                }
+              },
+              {
+                "content": "",
+                "elements": [
+                  {
+                    "id": "1731427187355",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "width": 50,
+                    "height": 50,
+                    "x": "100",
+                    "y": "80",
+                    "text": "test",
+                    "fontSize": 1,
+                    "color": "#651515",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731427297181",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "width": 50,
+                    "height": 50,
+                    "x": "30",
+                    "y": "80",
+                    "text": "test123",
+                    "fontSize": 1,
+                    "color": "#651515",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731427515302",
+                    "type": "text",
+                    "position": {
+                      "y": "100"
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "text": "3123",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript",
+                    "y": "1",
+                    "height": "5"
+                  },
+                  {
+                    "id": "1731427528941",
+                    "type": "text",
+                    "position": {
+                      "y": "100"
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "text": "3123124124124",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript",
+                    "y": "1",
+                    "height": "5",
+                    "x": "20"
+                  }
+                ]
+              },
+              {
+                "content": "",
+                "elements": [
+                  {
+                    "id": "1731427632490",
+                    "type": "text",
+                    "position": {
+                      "y": "50"
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "text": "换人了咯",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731427654938",
+                    "type": "text",
+                    "position": {
+                      "x": "22"
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "text": "换人了咯",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731427665485",
+                    "type": "text",
+                    "position": {
+                      "y": "45"
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "text": "换人了咯",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731427742267",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 100
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "text": "142",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731427923687",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 100
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "text": "",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  }
+                ]
+              },
+              {
+                "content": "",
+                "elements": [
+                  {
+                    "id": "1731427936665",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 100
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "text": "请问",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731427944408",
+                    "type": "text",
+                    "position": {
+                      "y": "10"
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "text": "请问",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731427953000",
+                    "type": "text",
+                    "position": {
+                      "x": "10"
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": 50
+                    },
+                    "text": "请问",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  }
+                ]
+              },
+              {
+                "content": "",
+                "elements": [
+                  {
+                    "id": "1731428177124",
+                    "type": "text",
+                    "position": {
+                      "x": "20",
+                      "y": "70"
+                    },
+                    "size": {
+                      "width": 50,
+                      "heigt": 50
+                    },
+                    "width": 50,
+                    "height": 50,
+                    "x": "20",
+                    "y": "70",
+                    "text": "啊我让",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  }
+                ]
+              },
+              {
+                "content": "",
+                "elements": [
+                  {
+                    "id": "1731428266327",
+                    "type": "text",
+                    "position": {
+                      "x": "70",
+                      "y": "60"
+                    },
+                    "size": {
+                      "width": 50,
+                      "heigt": 50
+                    },
+                    "width": 50,
+                    "height": 50,
+                    "x": "70",
+                    "y": "60",
+                    "text": "威威",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731428357723",
+                    "type": "text",
+                    "position": {
+                      "x": "1",
+                      "y": "100"
+                    },
+                    "size": {
+                      "width": "1",
+                      "heigt": "100"
+                    },
+                    "width": 50,
+                    "height": 50,
+                    "x": 10,
+                    "y": 10,
+                    "text": "nihao",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731428368016",
+                    "type": "code",
+                    "position": {
+                      "x": "1",
+                      "y": "100"
+                    },
+                    "size": {
+                      "width": "1",
+                      "heigt": "100"
+                    },
+                    "width": 50,
+                    "height": "5",
+                    "x": 10,
+                    "y": 10,
+                    "text": "nihao",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731428383961",
+                    "type": "text",
+                    "position": {
+                      "x": "1",
+                      "y": "100"
+                    },
+                    "size": {
+                      "width": "1",
+                      "heigt": "100"
+                    },
+                    "width": "50",
+                    "height": "5",
+                    "x": 10,
+                    "y": 10,
+                    "text": "nihaoaw",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731428393951",
+                    "type": "text",
+                    "position": {
+                      "x": "1",
+                      "y": "100"
+                    },
+                    "size": {
+                      "width": "1",
+                      "heigt": "100"
+                    },
+                    "width": "50",
+                    "height": "5",
+                    "x": 10,
+                    "y": 10,
+                    "text": "nihaoaw",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731428411008",
+                    "type": "text",
+                    "position": {
+                      "x": "1",
+                      "y": "100"
+                    },
+                    "size": {
+                      "width": "1",
+                      "heigt": "100"
+                    },
+                    "width": "1",
+                    "height": "1",
+                    "x": "1",
+                    "y": "1",
+                    "text": "nihaoaw",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731428429434",
+                    "type": "text",
+                    "position": {
+                      "x": "1",
+                      "y": "100"
+                    },
+                    "size": {
+                      "width": "1",
+                      "heigt": "100"
+                    },
+                    "width": "1",
+                    "height": "100",
+                    "x": "1",
+                    "y": "100",
+                    "text": "辉煌",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731428433451",
+                    "type": "text",
+                    "position": {
+                      "x": "1",
+                      "y": "100"
+                    },
+                    "size": {
+                      "width": "1",
+                      "heigt": "100"
+                    },
+                    "width": "1",
+                    "height": "100",
+                    "x": "1",
+                    "y": "100",
+                    "text": "辉煌",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  },
+                  {
+                    "id": "1731428438396",
+                    "type": "image",
+                    "position": {
+                      "x": "1",
+                      "y": "100"
+                    },
+                    "size": {
+                      "width": "1",
+                      "heigt": "100"
+                    },
+                    "width": "1",
+                    "height": "100",
+                    "x": "1",
+                    "y": "100",
+                    "text": "辉煌",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  }
+                ]
+              },
+              {
+                "content": "",
+                "elements": []
+              }
+            ],
+            "createdAt": "2024-11-12T15:43:00.015Z",
+            "updatedAt": "2024-11-12T15:43:00.015Z"
+          }
+        ]
+      }
+    },
+    "Trans_Email_Sender@163.com": {
+      "name": "123123123",
+      "password": "123123123",
+      "store": {
+        "presentations": [
+          {
+            "id": "1743136707975",
+            "title": "123",
+            "slides": [
+              {
+                "id": "1",
+                "elements": [
+                  {
+                    "id": "1743136725303",
+                    "type": "text",
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "heigt": 50
+                    },
+                    "width": 50,
+                    "height": 50,
+                    "x": 10,
+                    "y": 10,
+                    "text": "123123",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript"
+                  }
+                ],
+                "background": {
+                  "type": "solid",
+                  "color": "#ffffff"
+                }
+              },
+              {
+                "content": "",
+                "elements": []
+              },
+              {
+                "content": "",
+                "elements": []
+              },
+              {
+                "content": "",
+                "elements": []
+              },
+              {
+                "content": "",
+                "elements": []
+              },
+              {
+                "content": "",
+                "elements": []
+              },
+              {
+                "content": "",
+                "elements": []
+              },
+              {
+                "content": "",
+                "elements": []
+              },
+              {
+                "content": "",
+                "elements": []
+              }
+            ],
+            "createdAt": "2025-03-28T04:38:27.975Z",
+            "updatedAt": "2025-03-28T04:38:27.975Z"
+          }
+        ]
+      }
+    },
+    "123456@qq.com": {
+      "name": "batman",
+      "password": "@Aa123456",
+      "store": {
+        "presentations": []
+      },
+      "sessionActive": false
+    }
+  }
+}
