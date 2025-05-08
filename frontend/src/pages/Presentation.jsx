@@ -31,19 +31,39 @@ const Presentation = () => {
 
   useEffect(() => {
     const handleKeyPress = (e) => {
+      if (!isPresentMode) return;
+
       if (e.key === 'ArrowLeft') {
         handlePrevSlide();
       } else if (e.key === 'ArrowRight') {
         handleNextSlide();
-      } else if (e.key === 'Escape' && isPresentMode) {
+      }
+    };
+
+    const handleWheel = (e) => {
+      if (!isPresentMode) return;
+      
+      if (e.deltaY < 0) {
+        handlePrevSlide();
+      } else if (e.deltaY > 0) {
+        handleNextSlide();
+      }
+    };
+
+    const handleExitFullScreen = _ => {
+      if (isPresentMode && !document.fullscreenElement) {
         exitPresentMode();
-      } else if (e.key === 'f') {
-        toggleFullscreen();
       }
     };
 
     window.addEventListener('keydown', handleKeyPress);
-    return () => window.removeEventListener('keydown', handleKeyPress);
+    window.addEventListener('wheel', handleWheel);
+    window.addEventListener('fullscreenchange', handleExitFullScreen);
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress);
+      window.removeEventListener('wheel', handleWheel);
+      window.removeEventListener('fullscreenchange', handleExitFullScreen);
+    };
   }, [currentSlideIndex, presentation, isPresentMode]);
 
   const handlePrevSlide = useCallback(() => {
@@ -75,9 +95,6 @@ const Presentation = () => {
 
   const exitPresentMode = () => {
     setIsPresentMode(false);
-    if (document.fullscreenElement) {
-      document.exitFullscreen();
-    }
     setIsFullscreen(false);
   };
 
@@ -145,14 +162,14 @@ const Presentation = () => {
   if (isPresentMode) {
     return (
       <div className="fixed inset-0 bg-white">
-        <div className="absolute top-4 right-4 z-10">
+        {/* <div className="absolute top-4 right-4 z-10">
           <button
             onClick={exitPresentMode}
             className="px-4 py-2 bg-black/10 hover:bg-black/20 text-white rounded-lg transition-colors"
           >
             Exit
           </button>
-        </div>
+        </div> */}
         
         <div className="h-screen flex items-center justify-center">
           <div className="relative w-full max-w-[1200px] aspect-[16/9] mx-auto">
@@ -167,7 +184,8 @@ const Presentation = () => {
                   };
                   setPresentation(updatedPresentation);
                   StoreServices.updatePresentation(id, updatedPresentation);
-                }}
+              }}
+              isPresentMode={isPresentMode}
               />
           </div>
         </div>
@@ -266,8 +284,9 @@ const Presentation = () => {
                   hover:border-blue-300 transition-colors
                 `}
               >
-                 <SlideEditor
-              slide={presentation.slides[currentSlideIndex]}
+            <SlideEditor
+              slide={presentation.slides[index]}
+              hideSidebar={true}
               isPresenting={true}
               className="w-full h-full bg-white"
             />

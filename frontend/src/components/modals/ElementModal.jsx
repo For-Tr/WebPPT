@@ -13,8 +13,7 @@ const ElementModal = ({ isOpen, type, onSave, onClose }) => {
       y: 10,
     },
     size:{
-      width:50,
-      heigt:50,
+      height:"5em",
     },
     text: '',
     fontSize: 1,
@@ -51,7 +50,7 @@ const ElementModal = ({ isOpen, type, onSave, onClose }) => {
 
               <form onSubmit={(e) => {
                 e.preventDefault();
-                formData.size.heigt = formData.height
+                formData.size.height = formData.height
                 formData.size.width = formData.width
                 formData.position.x = formData.x
                 formData.position.y = formData.y
@@ -59,7 +58,7 @@ const ElementModal = ({ isOpen, type, onSave, onClose }) => {
               }}>
                 <div className="space-y-4">
                   {/* Common fields */}
-                  <div>
+                  {/* <div>
                     <label className="block text-sm font-medium text-gray-700">
                       Width (%)
                     </label>
@@ -71,22 +70,20 @@ const ElementModal = ({ isOpen, type, onSave, onClose }) => {
                       onChange={e => setFormData({...formData, width: e.target.value})}
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     />
-                  </div>
+                  </div> */}
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700">
-                      Height (%)
+                      Height
                     </label>
                     <input
-                      type="number"
-                      min="0"
-                      max="100"
+                      type="text"
                       value={formData.height}
                       onChange={e => setFormData({...formData, height: e.target.value})}
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     />
                   </div>
-                  <div>
+                  {/* <div>
                     <label className="block text-sm font-medium text-gray-700">
                       x (%)
                     </label>
@@ -112,7 +109,7 @@ const ElementModal = ({ isOpen, type, onSave, onClose }) => {
                       onChange={e => setFormData({...formData, y: e.target.value})}
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     />
-                  </div>
+                  </div> */}
 
                   {/* Type-specific fields */}
                   {/* Text type fields */}
@@ -220,7 +217,8 @@ const ElementModal = ({ isOpen, type, onSave, onClose }) => {
                         </label>
                         <textarea
                           value={formData.code}
-                          onChange={e => handleCodeChange(e.target.value)}
+                          // onChange={e => handleCodeChange(e.target.value)}
+                          onChange={e => setFormData({...formData, code: e.target.value})}
                           className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 font-mono"
                           rows={6}
                         />
@@ -239,12 +237,13 @@ const ElementModal = ({ isOpen, type, onSave, onClose }) => {
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-gray-700">
-                          Language (Auto-detected)
+                          Language
                         </label>
                         <input
                           type="text"
                           value={formData.language}
-                          readOnly
+                          onChange={e => setFormData({...formData, language: e.target.value})}
+                          // readOnly
                           className="mt-1 block w-full rounded-md border-gray-300 bg-gray-50"
                         />
                       </div>

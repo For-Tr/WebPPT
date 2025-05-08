@@ -768,6 +768,166 @@
         "presentations": []
       },
       "sessionActive": false
+    },
+    "test@test.com": {
+      "name": "admin",
+      "password": "123",
+      "store": {
+        "presentations": [
+          {
+            "id": "1746720936900",
+            "title": "test",
+            "slides": [
+              {
+                "id": "1",
+                "elements": [
+                  {
+                    "width": 50,
+                    "height": "auto",
+                    "x": 10,
+                    "y": 10,
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": "auto"
+                    },
+                    "text": "",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "https://cn.bing.com/th?id=OHR.ArchesGalaxy_ZH-CN0954505086_1920x1080.jpg",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript",
+                    "id": "1746720956031",
+                    "type": "image"
+                  }
+                ],
+                "background": {
+                  "type": "solid",
+                  "color": "#ffffff"
+                }
+              },
+              {
+                "content": "",
+                "elements": [
+                  {
+                    "width": 50,
+                    "height": "auto",
+                    "x": 10,
+                    "y": 10,
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": "auto"
+                    },
+                    "text": "",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "https://cn.bing.com/th?id=OHR.ArchesGalaxy_ZH-CN0954505086_1920x1080.jpg",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "int main() {\n    cout << \"Hello World!\" << endl;\n    return 0;\n}",
+                    "language": "cpp",
+                    "id": "1746720998704",
+                    "type": "code"
+                  },
+                  {
+                    "width": 50,
+                    "height": "auto",
+                    "x": 10,
+                    "y": 10,
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": "auto"
+                    },
+                    "text": "测试代码",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "https://cn.bing.com/th?id=OHR.ArchesGalaxy_ZH-CN0954505086_1920x1080.jpg",
+                    "altText": "",
+                    "videoUrl": "",
+                    "autoplay": false,
+                    "code": "int main() {\n    cout << \"Hello World!\" << endl;\n    return 0;\n}",
+                    "language": "cpp",
+                    "id": "1746721022152",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "content": "",
+                "elements": [
+                  {
+                    "width": 50,
+                    "height": "20em",
+                    "x": 10,
+                    "y": 10,
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": "20em"
+                    },
+                    "text": "",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "https://www.youtube.com/embed/VjB69-nirZ0?si=oq2FlNSmfCBjIdxJ",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript",
+                    "id": "1746721088568",
+                    "type": "video"
+                  },
+                  {
+                    "width": 50,
+                    "height": "auto",
+                    "x": 10,
+                    "y": 10,
+                    "position": {
+                      "x": 10,
+                      "y": 10
+                    },
+                    "size": {
+                      "width": 50,
+                      "height": "auto"
+                    },
+                    "text": "测试视频",
+                    "fontSize": 1,
+                    "color": "#000000",
+                    "imageUrl": "",
+                    "altText": "",
+                    "videoUrl": "https://www.youtube.com/embed/VjB69-nirZ0?si=oq2FlNSmfCBjIdxJ",
+                    "autoplay": false,
+                    "code": "",
+                    "language": "javascript",
+                    "id": "1746721102084",
+                    "type": "text"
+                  }
+                ]
+              }
+            ],
+            "createdAt": "2025-05-08T16:15:36.900Z",
+            "updatedAt": "2025-05-08T16:15:36.900Z"
+          }
+        ]
+      }
     }
   }
 }
