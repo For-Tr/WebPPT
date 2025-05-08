@@ -3,12 +3,10 @@
 const VideoBox = ({ element, onDoubleClick, onContextMenu }) => {
     return (
       <div
-        className="absolute cursor-move"
+        className=""
         style={{
-          left: `${element.position.x}%`,
-          top: `${element.position.y}%`,
-          width: `${element.size.width}%`,
-          height: `${element.size.height}%`,
+          width: `100%`,
+          height: element.size.height,
         }}
         onDoubleClick={onDoubleClick}
         onContextMenu={onContextMenu}
